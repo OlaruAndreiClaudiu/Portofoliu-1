@@ -1,0 +1,209 @@
+body{
+    margin:0;
+    background-color:white;
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+}
+.profile-banner{
+    background-color:black;
+    color:white;
+    height:113px;
+    font-size:115px;
+}
+.header-wrapper header{
+    width:100%;
+    background:url(../img/Olaru\ Andrei\ Claudiu.jpg) no-repeat 50% 20% / cover;
+    min-height:calc(100px+15vw);
+}
+.header-wrapper .cols-container .left-col .img-container{
+    position:absolute;
+    top:50px;
+    left:50%;
+    transform:translateX(-50%);
+}
+.header-wrapper .cols-container .left-col .img-container img{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border-radius:50%;
+    display:block;
+    box-shadow:1px 3px 12px black;
+    position:relative;
+    left:25px;    
+}
+.header-wrapper .cols-container .left-col .img-container span{
+    position:absolute;
+    background:green;
+    width:16px;
+    height:16px;
+    border-radius:50%;
+    bottom:3px;
+    right:11px;
+    border:2px solid white;
+    left:113px;  
+}
+.header-wrapper .cols-container .left-col{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-wrapper .cols-container .left-col h2{
+    position:relative;
+    margin-top:70px;
+    font-weight:600;
+    font-size:22px;
+    margin-bottom:5px;
+    left:25px;
+}
+.header-wrapper .cols-container .left-col p{
+    position:relative;
+    font-size:0.9rem;
+    color:blue;
+    margin:0;
+    left:25px;
+}
+.section-1{
+    text-decoration:none;
+    color:black;
+    position:relative;
+    display:flex;
+    left:-41px;    
+}
+.section-1:hover{
+    color:blue;
+}
+.edit{
+    text-decoration:none;
+    color:black;
+    position:relative;
+    display:flex;
+    left:-41px;
+}
+.edit:hover{
+    color:blue;
+}
+.left-container{
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    left:300px;
+}
+.pictures-container{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    left:300px;
+    top:120px;
+}
+.picture-1{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    left:-380px;
+}
+.picture-2{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    left:-275px;
+    top:-100px;
+}
+.picture-3{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    left:-170px;
+    top:-200px;
+}
+.picture-4{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    left:-380px;
+    top:-195px;
+}
+.picture-5{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    left:-275px;
+    top:-295px;
+}
+.picture-6{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    left:-170px;
+    top:-395px;
+}
+.videos-container{
+    position:relative;
+    left:300px;
+    top:-200px;
+}
+.video-1{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    left:-380px;
+}
+.video-2{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    left:-275px;
+    top:-100px;
+}
+.video-3{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    left:-170px;
+    top:-200px;
+}
+.video-4{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    left:-380px;
+    top:-195px;
+}
+.video-5{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    left:-275px;
+    top:-295px;
+}
+.video-6{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    left:-170px;
+    top:-395px;
+}

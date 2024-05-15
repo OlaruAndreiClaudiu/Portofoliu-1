@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    margin:0;
+}
+.settings-banner{
+    background-color:white;
+    color:black;
+    height:113px;
+    font-size:115px;
+}
+.section-1{
+    text-decoration:none;
+    color:white;
+    display:flex;
+}
+.section-2{
+    text-decoration:none;
+    color:white;
+}
+.section-3{
+    text-decoration:none;
+    color:white;
+    display:flex;
+}
+.section-1:hover{
+    text-decoration:none;
+    color:cyan;
+}
+.section-2:hover{
+    text-decoration:none;
+    color:cyan;
+}
+.section-3:hover{
+    text-decoration:none;
+    color:cyan;
+}

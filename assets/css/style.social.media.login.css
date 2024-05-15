@@ -1,0 +1,14 @@
+body{
+    background-color:white;
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+}
+.login{
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    align-items:center;
+    justify-content:center;
+    top:300px;
+    gap:5px;
+}
